@@ -1,0 +1,20 @@
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\bin\Debug\net8.0\Cyber Chat.exe
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\bin\Debug\net8.0\Cyber Chat.deps.json
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\bin\Debug\net8.0\Cyber Chat.runtimeconfig.json
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\bin\Debug\net8.0\Cyber Chat.dll
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\bin\Debug\net8.0\Cyber Chat.pdb
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\bin\Debug\net8.0\System.Windows.Extensions.dll
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\obj\Debug\net8.0\Cyber Chat.csproj.AssemblyReference.cache
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\obj\Debug\net8.0\Cyber Chat.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\obj\Debug\net8.0\Cyber Chat.AssemblyInfoInputs.cache
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\obj\Debug\net8.0\Cyber Chat.AssemblyInfo.cs
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\obj\Debug\net8.0\Cyber Chat.csproj.CoreCompileInputs.cache
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\obj\Debug\net8.0\Cyber Chat.csproj.Up2Date
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\obj\Debug\net8.0\Cyber Chat.dll
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\obj\Debug\net8.0\refint\Cyber Chat.dll
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\obj\Debug\net8.0\Cyber Chat.pdb
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\obj\Debug\net8.0\Cyber Chat.genruntimeconfig.cache
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\obj\Debug\net8.0\ref\Cyber Chat.dll
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\bin\Debug\net8.0\greeting.wav
+c:\Users\ayask\OneDrive\Desktop\Cyber Awerness\Cyber Chat\bin\Debug\net8.0\goodbye.wav
