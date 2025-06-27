@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CyberAwerness")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f463d0fccb696c341f451ff081373b22d626b268")]
 [assembly: System.Reflection.AssemblyProductAttribute("CyberAwerness")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CyberAwerness")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
