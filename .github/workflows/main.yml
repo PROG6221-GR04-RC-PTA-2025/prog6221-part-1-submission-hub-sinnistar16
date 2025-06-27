@@ -1,0 +1,40 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '6.0.x' # or whatever version you're using
+
+    - name: Restore dependencies
+      run: dotnet restore CyberAwerness.sln
+
+    - name: Build solution
+      run: dotnet build CyberAwerness.sln --configuration Release --no-restore
+
+    - name: Run tests (optional)
+      run: dotnet test CyberAwerness.sln --configuration Release --no-build --verbosity normal
+      continue-on-error: true
+
+    - name: Publish app
+      run: dotnet publish CyberAwerness.csproj -c Release -o ./publish --no-build
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: CyberAwerness-Build
+        path: ./publish/
+        retention-days: 30
