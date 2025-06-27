@@ -20,14 +20,14 @@ jobs:
         dotnet-version: '6.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore CyberAwareness.sln
+      run: dotnet restore CyberAwereness.sln
 
     - name: Build solution
-      run: dotnet build CyberAwareness.sln --configuration Release --no-restore
+      run: dotnet build CyberAwereness.sln --configuration Release --no-restore
 
     - name: Publish WPF app
       run: |
-        dotnet publish CyberAwarenessF/CyberAwareness.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -o ./publish
+        dotnet publish CyberAwerenessF/CyberAwereness.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -o ./publish
       shell: pwsh
 
     - name: Upload build artifacts
@@ -51,7 +51,7 @@ jobs:
         dotnet-version: '6.0.x'
 
     - name: Run code analysis
-      run: dotnet build CyberAwareness.sln --configuration Release
+      run: dotnet build CyberAwereness.sln --configuration Release
 
   package:
     runs-on: windows-latest
@@ -69,7 +69,7 @@ jobs:
 
     - name: Publish final WPF app
       run: |
-        dotnet publish CyberAwareness/CyberAwareness.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./dist/win-x64/
+        dotnet publish CyberAwereness/CyberAwereness.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./dist/win-x64/
       shell: pwsh
 
     - name: Zip output
